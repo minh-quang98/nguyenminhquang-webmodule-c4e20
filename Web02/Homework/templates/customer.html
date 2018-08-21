@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Danh sách khách hàng</title>
+</head>
+<body>
+    <h1>Danh sách khách hàng</h1>
+    <h2>
+        <a href="{{ url_for('index') }}">Về trang chủ</a>
+    </h2>
+    {% for cus in all_cus %}
+    <div>
+        <p>Tên: {{ cus.name }}</p>
+        <p>Nghề: {{ cus.job }}</p>
+        <p>Contact: {{ cus.contacted }}</p>
+        <hr>
+    </div>
+    {% endfor %}
+</body>
+</html>
