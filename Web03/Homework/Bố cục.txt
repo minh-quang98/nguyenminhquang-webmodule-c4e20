@@ -1,0 +1,5 @@
+Ex1: app_hw
+Ex2: population + service + search
+Ex3: app_hw + profile
+Ex4: new-serivce + app_hw
+Ex5: new-service

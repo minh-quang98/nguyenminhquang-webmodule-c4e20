@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Muà đông không lạnh</title>
+</head>
+<body>
+    <h1>Search page</h1>
+    <h2>
+        <a href="{{ url_for('index') }}">Về trang chủ</a>
+    </h2>
+    
+    {% for service in all_service %}
+    <div>
+        <!-- image -->
+        {% if service.gender == 1 %}
+            <img src="../static/image/male.jpg" alt="">
+        {% else %}
+            <img src="../static/image/female.jpg" alt="">
+        {% endif %}
+        <p>Tên: {{ service.name }}</p>
+        <p>Năm sinh: {{ service.yob }}</p>
+        <p>Chiều cao: {{ service.height }}</p>
+        <p>Số đo 3 vòng: {{ service.measurements }}</p>
+        <p>Mô tả: {{ service.description }}</p>
+        <hr>
+    </div>
+    {% endfor %}
+</body>
+</html>
