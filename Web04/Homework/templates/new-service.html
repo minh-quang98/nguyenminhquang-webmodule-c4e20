@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mùa đông không lạnh</title>
+</head>
+<body>
+    <a href="{{ url_for('admin') }}">Quay lại</a>
+    <h1>New service</h1>
+    <form method="POST">
+        <label>Name</label>
+        <input type="text" name="name" value="Name">
+        <br>
+
+        <label>yob</label>
+        <input type="text" name="yob" value="yob">
+        <br>
+
+        <label>Phone number</label>
+        <input type="text" name="phone" value="phone">
+        <br>
+
+        <label>Male</label>
+        <input type="radio" name="gender" value="1">
+        <label>Female</label>
+        <input type="radio" name="gender" value="0">
+        <br>
+
+        <input type="submit" value="Thêm">
+    </form>
+</body>
+</html>
