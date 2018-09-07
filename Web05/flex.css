@@ -1,0 +1,27 @@
+.bg-gray {
+    background-color: #e7cc8e;
+}
+
+.bg-green {
+    background-color: rgb(31, 211, 31);
+}
+
+.w-100px {
+    width: 100px;
+}
+
+.h-100px {
+    height: 100px;
+}
+
+.m-10px {
+    margin: 10px;
+}
+
+#flex-box {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}

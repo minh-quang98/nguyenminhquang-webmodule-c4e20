@@ -1,0 +1,42 @@
+.text-success {
+    color: blue;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-blue {
+    background-color: lightblue;
+}
+
+.w-200px {
+    width: 200px;
+}
+
+.h-200px {
+    height: 200px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+#box-model {
+    border: 1px orange solid;
+    /* margin: 50px;
+    padding: 50px; */
+    box-sizing: border-box;
+    width: 50%;
+}
+
+#child-box {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(62, 221, 197);
+    margin: 60px;
+}

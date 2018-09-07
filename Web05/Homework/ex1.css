@@ -1,0 +1,60 @@
+.font {
+    font-size: 40px;
+    color: rgb(212, 37, 75) ;
+    text-transform: uppercase;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.h-w-200px {
+    height: 200px;
+    width: 200px;
+}
+
+.h-200px {
+    height: 200px;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row nowrap;
+}
+
+.text-align{
+    text-align:center;
+}
+
+#block-main {
+    height: 682px;
+    width: 100%;
+    background-image: url("http://daemoniaca.mx/wp-content/uploads/SAOReview1.jpg");
+    background-size: cover;
+}
+
+#block-1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#block-2 {
+    background-image: url("https://i.imacdn.com/ta/2016/12/06/bff934ed879045ce_79978fb4c3c05f81_5198614810114895154671.jpg");
+    background-size: cover;
+    border-radius: 100%;
+}
+
+#block-3 {
+    background-image: url("https://i.imacdn.com/ta/2016/12/06/40f7d3ca1017ad73_af9258a9ceb77e6e_3512214810115077154671.jpg");
+    background-size:cover;
+    border-radius: 100%;
+}
+
+#block-4 {
+    background-image: url("https://i.imacdn.com/ta/2016/12/06/8e8b7de938a086b7_f1febb955eee6b39_3267014810115254154671.jpg");
+    background-size: cover;
+    border-radius:100%;
+}
