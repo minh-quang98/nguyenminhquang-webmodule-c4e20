@@ -10,13 +10,13 @@
             <div class="card bg-light text-white rounded float-left ">
                 <img class="card-img" src="../../static/image/female.jpg" alt="Card image">
                 <div class="card-img-overlay text-right align-middle" style="height:200px;">
-                    <h4 class="card-title" style=" margin-top: 50px;margin-right: 20px;">Bạn là nam</h4>
+                    <h4 class="card-title" style=" margin-top: 50px;margin-right: 20px;"><a href="{{ url_for('search', g=0) }}" class="text-light">Bạn là nam</a></h4>
                 </div>
             </div>
             <div class="card bg-light text-white rounded float-right">
                 <img class="card-img" src="../../static/image/male.jpg" alt="Card image">
                 <div class="card-img-overlay">
-                    <h4 class="card-title" style=" margin-top: 50px;margin-right: 69px;">Bạn là nữ</h4>
+                    <h4 class="card-title" style=" margin-top: 50px;margin-right: 69px;"><a href="{{ url_for('search', g=1) }}" class="text-light">Bạn là nữ</a></h4>
                 </div>
             </div>
         </div>    
